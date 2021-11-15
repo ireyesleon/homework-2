@@ -1,0 +1,132 @@
+body {
+    background-color: #b4c3e299;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #212d7499;
+}
+
+header h1 {
+    font-size: 50px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+header div ul li {
+   display: inline-block;
+   margin-left: 10px;
+}
+
+nav {
+    position: relative;
+}
+
+nav img {
+    background-size: contain;
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+nav p {
+    font-size: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #212d7499;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Personal-info {
+    margin-left: 30%; 
+    padding: 20px;
+    clear: both;
+    width: 70%;
+    height: 100%;
+}
+
+.About-me {
+    text-align: justify;
+}
+
+.About-me h2 {
+    position: relative;
+    right: 186px;
+    top: 83px;
+    font-size: 40px;
+}
+
+.About-me img {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.Work h2 {
+    position: relative;
+    right: 186px;
+    top: 150px;
+    font-size: 40px;
+}
+
+.My-work {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.calculator {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.calculator, .maps, .recipes, .music-player, .gps {
+    padding: 10px;
+}
+
+.calculator img, .maps img, .recipes img, .music-player img, .gps img {
+    height: 100%;
+    width: 100%;
+}
+
+.calculator p, .maps p, .recipes p, .music-player p, .gps p {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    right: -5px;
+    background-color: black;
+    padding: 20px;
+    display: inline-block;
+    color: white;
+}
+
+.Contact-me {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Contact-me h2 {
+    position: relative;
+    right: 510px;
+    top: 60px;
+    font-size: 40px;
+}
+
+.Contact-me h2 {
+    padding: 10px;
+}
+
+.Contact-me ul li {
+    color: blue;
+    display: inline;
+    padding: 15px
+}
