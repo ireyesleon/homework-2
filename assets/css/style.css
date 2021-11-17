@@ -79,14 +79,13 @@ nav p {
 .About-me p {
     border-left: solid 5px;
     padding: 20px;
-    display: flex;
     float: left;
     width: 80%;
+    
 }
 
 .About-me h2 {
     font-size: 4vw;
-    display: inline-block;
     float: left;
     width: 20%;
 }
