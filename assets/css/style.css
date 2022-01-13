@@ -93,7 +93,6 @@ h2 {
     width: 100%;
     background-size: cover;
     border-radius: 8px;
-    border: 1px dashed;
     transition: all 0.5s ease-in-out;
 }
 
@@ -103,7 +102,6 @@ h2 {
     width: 100%;
     background-size: cover;
     border-radius: 8px;
-    border: 1px dashed;
     transition: all 0.5s ease-in-out;
 }
   
@@ -141,7 +139,21 @@ h2 {
 }
 
 .Contact-me ul li {
-    color: blue;
-    display: inline;
-    font-size: 2.5vw;
+    color: white;
+    font-size: 3vh;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: black;
+  }
+
+.bi {
+    font-style: normal;
 }
