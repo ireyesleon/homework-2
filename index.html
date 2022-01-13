@@ -2,90 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isaias Reyes' Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-<header>
-<h1>Isaias Reyes</h1>
-<div>
-    <ul>
-        <li>
-            <a href="#About-me">About me</a>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#About-me">About me</a>
         </li>
-        <li>
-            <a href="#Work">Work</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#Work">My Work</a>
         </li>
-        <li>
-            <a href="#Contact-me">Contact me</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#Contact-me">Contact me</a>
         </li>
-    </ul>
-</div>
-</header>
+      </ul>
 <nav>
 <p>Welcome to my Portfolio!</p>
 <img src="./assets/images/banner.jpeg" alt="Profile">
 </nav>
 <main class="Personal-info">
 <section id="About-me" class="About-me">
-    <div class=About-me-text>
+    <div class="row">
+    <div class="About-me-text col-2">
     <h2>About <br>
         me</h2>
-    <p>My name is Isaias Reyes, I'm from Culiacán Sinaloa and I studied Marketing at Universidad de Occidente. Since I graduated I started working at IBM in the Asset Management department.
+    </div>
+    <div class="col-10" id="about-me-p">
+    My name is Isaias Reyes, I'm from Culiacán Sinaloa and I studied Marketing at Universidad de Occidente. Since I graduated I started working at IBM in the Asset Management department.
     <br>
     <br>
-    I'm responsible of managing a team based in different locations, using the agile methodology to deliver all of our services to a client with Global presence. As the Product Owner I have to negotiate with the different stakeholders the expectations, deadlines and possible changes in the service.</p>
+    I'm responsible of managing a team based in different locations, using the agile methodology to deliver all of our services to a client with Global presence. As the Product Owner I have to negotiate with the different stakeholders the expectations, deadlines and possible changes in the service.
     </div>
     <img src="./assets/images/profile.jpeg" alt="Profile">
+</div>
 </section>
 <section id="Work" class="Work">
+    <div class="row">
+    <div class="col-2">
     <h2>My <br>
         Work</h2>
-    <div class="My-work">
-        <div class="calculator">
+    </div>
+    <div class="My-work col-10">
+        <div class="row">
+        <div class="calculator col-12 align-items-center justify-content-center">
           <pre>
-            <span class="app-titles">Calculator</span>
-            This is a placeholder</pre>
-          <a href="https://github.com/ireyesleon/homework-2"><img src="./assets/images/calculator.png" alt="calculator app"></a>
+            <span class="app-titles">Yumi Yumi App</span>
+            </pre>
+          <a href="https://ireyesleon.github.io/Project-Yumi-Yumi/"><img src="./assets/images/yumi-yumi.png" alt="Yumi Yumi App"></a>
         </div>
-        <div class="maps">
+        <div class="maps col-12 col-sm-6 align-items-center justify-content-center">
             <pre>
-            <span class="app-titles">Maps</span>
-          This is a placeholder</pre>
-            <a href="https://github.com/ireyesleon/homework-2"><img src="./assets/images/calculator.png" alt="maps app"></a>
+            <span class="app-titles">Weather Dasboard</span>
+          </pre>
+            <a href="https://ireyesleon.github.io/homework-6/"><img src="./assets/images/Weather.png" alt="Weather Dashboard"></a>
         </div>
-        <div class="recipes">
+        <div class="recipes col-12 col-sm-6  align-items-center justify-content-center">
             <pre>
-            <span class="app-titles">Recipes</span>
-          This is a placeholder</pre>
-            <a href="https://github.com/ireyesleon/homework-2"><img src="./assets/images/calculator.png" alt="recipes app"></a>
+            <span class="app-titles">Work Day Scheduler</span>
+          </pre>
+            <a href="https://ireyesleon.github.io/homework-5/"><img src="./assets/images/Scheduler.png" alt="Scheduler app"></a>
         </div>
-        <div class="music-player">
+        <div class="music-player col-12 col-sm-6  align-items-center justify-content-center">
             <pre>
-            <span class="app-titles">Music Player</span>
-          This is a placeholder</pre>
-            <a href="https://github.com/ireyesleon/homework-2"><img src="./assets/images/calculator.png" alt="music player"></a>
+            <span class="app-titles">Password Generator</span>
+        </pre>
+            <a href="https://ireyesleon.github.io/homework-3/"><img src="./assets/images/password.png" alt="Password Generator"></a>
         </div>
-        <div class="gps">
+        <div class="gps col-12 col-sm-6  align-items-center justify-content-center">
             <pre>
-            <span class="app-titles">GPS</span>
-          This is a placeholder</pre>
-            <a href="https://github.com/ireyesleon/homework-2"><img src="./assets/images/calculator.png" alt="gps app"></a>
+            <span class="app-titles">Capitals Quiz</span>
+          </pre>
+            <a href="https://ireyesleon.github.io/homework-4/"><img src="./assets/images/quiz.png" alt="European capitals Quiz"></a>
         </div>
-
+        </div>
+    </div>
+    </div>
 </section>
 <section id="Contact-me" class="Contact-me">
+    <div class="row">
+    <div class="col-2">
     <h2>Contact<br>
          me</h2>
+    </div>
+    <div class="col-10" id="contact">
     <ul>
         <li>
             <a>6672652198</a>
         </li>
         <li>
-            <a href = "mailto: izaaiaz@gmail.com">izaaiaz@gmail.com</a
+            <a href = "mailto: izaaiaz@gmail.com">izaaiaz@gmail.com</a>
         </li>
         <li>
             <a href="https://github.com/ireyesleon">Github</a>
@@ -94,6 +104,8 @@
             <a href="https://twitter.com/elreyIeon">Twitter</a>
         </li>
     </ul>
+</div>
+</div>
 </section>
 </main>
 </body>

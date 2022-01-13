@@ -2,7 +2,7 @@ This is the portfolio of applications that I have created, its objective is to s
 
 Ipad pro example:
 ```md
-    ![alt text](assets/images/readme image.png)
+    ![alt text](assets/images/readme_image.png)
     ```
 
 Link to repo: https://github.com/ireyesleon/homework-2

@@ -12,15 +12,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
+/* header {
     background-color: var(--main-color);
     display: flex;
 }
 
 header h1 {
-    font-size: 5vw;
+    font-size: 5vh;
     display: inline-block;
-    width: 60%;
     padding: 10px;
     margin: auto;
 }
@@ -31,15 +30,13 @@ header div {
 
 header div ul {
     font-size: 2vw;
-    width: 40%;
-    display: inline;
     padding-right: 20px;
 }
 
 header div ul li {
    color: blue;
    display: inline;
-}
+} */
 
 nav {
     position: relative;
@@ -76,18 +73,13 @@ nav p {
     display: inline-block;
 }
 
-.About-me p {
+#about-me-p {
     border-left: solid 5px;
-    padding: 20px;
-    float: left;
-    width: 80%;
-    
+    padding: 20px; 
 }
 
-.About-me h2 {
-    font-size: 4vw;
-    float: left;
-    width: 20%;
+h2 {
+    font-size: 3vw;
 }
 
 .About-me img {
@@ -98,46 +90,57 @@ nav p {
     margin-right: auto;
     padding: 20px;
 }
-
+/* 
 .Work h2 {
     float: left;
     width: 20%;
-    font-size: 4vw;
     display: inline-block;
-}
+} */
 
 .My-work {
-    float: left;
-    width: 80%;
+    /* float: left;
+    width: 80%; */
     border-left: solid 5px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
     align-content: center;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
-.calculator {
+/* .calculator {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-}
+} */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .My-work {
      grid-template-columns: repeat(1, 1fr)
 }
-}
+} */
 
 .calculator, .maps, .recipes, .music-player, .gps {
     padding: 10px;
 }
 
-.calculator img, .maps img, .recipes img, .music-player img, .gps img {
-    height: 100%;
+.maps img, .recipes img, .music-player img, .gps img {
+    height: 28vw;
+    min-height: 187.39px;
     width: 100%;
+    background-size: cover;
     border-radius: 8px;
-    border: 5px solid;
+    border: 1px dashed;
+    transition: all 0.5s ease-in-out;
+}
+
+.calculator img {
+    max-height: 527px;
+    min-height: 187.39px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px dashed;
     transition: all 0.5s ease-in-out;
 }
   
@@ -148,11 +151,10 @@ nav p {
 
 .calculator pre, .maps pre, .recipes pre, .music-player pre, .gps pre {
     position: relative;
-    top: 50%;
-    bottom: 50%;
-    right: -5px;
+    top: 0%;
+    /* bottom: 50%; */
     background-color: var(--main-color);
-    padding: 10px;
+    /* padding: 10px; */
     display: inline-block;
     color: white;
     text-align: center;
@@ -169,20 +171,18 @@ nav p {
 }
 
 .Contact-me h2 {
-    font-size: 4vw;
     display: inline-block;
-    float: left;
-    width: 20%;
 }
 
 .Contact-me ul {
-    display: inline-block;
-    float: left;
-    width: 80%;
+    /* display: inline-block; */
     text-align: center;
-    padding-left: 44px;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+#contact {
     border-left: solid 5px;
 }
 
