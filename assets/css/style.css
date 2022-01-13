@@ -8,35 +8,20 @@
   }
 
 body {
-    background-color: var(--background-color);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,56,175,1) 35%, rgba(0,144,255,1) 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
-/* header {
-    background-color: var(--main-color);
-    display: flex;
+.nav {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,56,175,1) 35%, rgba(0,144,255,1) 100%);
 }
 
-header h1 {
-    font-size: 5vh;
-    display: inline-block;
-    padding: 10px;
-    margin: auto;
+.nav a {
+    color: white;
 }
-
-header div {
-    margin: auto;
-}
-
-header div ul {
-    font-size: 2vw;
-    padding-right: 20px;
-}
-
-header div ul li {
-   color: blue;
-   display: inline;
-} */
 
 nav {
     position: relative;
@@ -89,36 +74,14 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    min-height: 250px;
+    min-width: 250px;
 }
-/* 
-.Work h2 {
-    float: left;
-    width: 20%;
-    display: inline-block;
-} */
 
 .My-work {
-    /* float: left;
-    width: 80%; */
     border-left: solid 5px;
-    /* display: grid;
-    grid-template-columns: 50% 50%; */
     align-content: center;
-    /* padding-bottom: 50px; */
 }
-
-/* .calculator {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-} */
-
-/* @media only screen and (max-width: 768px) {
-    .My-work {
-     grid-template-columns: repeat(1, 1fr)
-}
-} */
 
 .calculator, .maps, .recipes, .music-player, .gps {
     padding: 10px;
@@ -150,15 +113,11 @@ h2 {
   }
 
 .calculator pre, .maps pre, .recipes pre, .music-player pre, .gps pre {
-    position: relative;
-    top: 0%;
-    /* bottom: 50%; */
     background-color: var(--main-color);
-    /* padding: 10px; */
-    display: inline-block;
     color: white;
     text-align: center;
     font-size: 1vw;
+    border-radius: 8px;
 }
 
 .app-titles {
@@ -170,12 +129,7 @@ h2 {
     width: 100%;
 }
 
-.Contact-me h2 {
-    display: inline-block;
-}
-
 .Contact-me ul {
-    /* display: inline-block; */
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
