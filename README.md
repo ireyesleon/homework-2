@@ -11,4 +11,4 @@ Ipad pro example:
 >>>>>>> b9cd734cf333514acd8fc35a22039a58357105e8
 
 Link to repo: https://github.com/ireyesleon/homework-2
-Link to deployed app: 
+Link to deployed app: https://ireyesleon.github.io/homework-2/
