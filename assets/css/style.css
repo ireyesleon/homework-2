@@ -64,7 +64,7 @@ nav p {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size:calc(5px + 2vw);
 }
 
 .About-me img {
@@ -83,11 +83,11 @@ h2 {
     align-content: center;
 }
 
-.calculator, .maps, .recipes, .music-player, .gps {
+.calculator, .maps, .recipes {
     padding: 10px;
 }
 
-.maps img, .recipes img, .music-player img, .gps img {
+.maps img, .recipes img {
     height: 28vw;
     min-height: 187.39px;
     width: 100%;
@@ -105,12 +105,12 @@ h2 {
     transition: all 0.5s ease-in-out;
 }
   
-.calculator:hover, .maps:hover, .recipes:hover, .music-player:hover, .gps:hover {
+.calculator img:hover, .maps img:hover, .recipes img:hover {
     opacity: 0.5;
     transition: all 0.2s ease-in-out;
   }
 
-.calculator pre, .maps pre, .recipes pre, .music-player pre, .gps pre {
+.calculator pre, .maps pre, .recipes pre {
     background-color: var(--main-color);
     color: white;
     text-align: center;
@@ -119,7 +119,7 @@ h2 {
 }
 
 .app-titles {
-    font-size: 3vw;
+    font-size:calc(10px + 2.5vw);
 }
 
 .Contact-me {
@@ -156,4 +156,9 @@ a:hover {
 
 .bi {
     font-style: normal;
+}
+
+.repo {
+    font-size:calc(12px + 2vw);
+    text-decoration: underline;
 }
