@@ -159,6 +159,6 @@ a:hover {
 }
 
 .repo {
-    font-size:calc(12px + 2vw);
+    font-size:calc(10px + 1vw);
     text-decoration: underline;
 }
